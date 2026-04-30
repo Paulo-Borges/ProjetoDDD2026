@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain.Interfaces
 {
-    public interface IRepository <T> where T : class  // Interface genérica, mas tem que ser uma class
+    public interface IRepository<T> where T : class  // Interface genérica, mas tem que ser uma class
     {
         Task<T> GetByIdAsync(int id);            // Busca um único registro do tipo T através do seu ID
 

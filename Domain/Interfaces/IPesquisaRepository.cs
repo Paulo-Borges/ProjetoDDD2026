@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Domain.Interfaces
 {
-    internal interface IPesquisaRepository : IRepository<Pesquisa>
+    public interface IPesquisaRepository : IRepository<Pesquisa>
     {
 
     }

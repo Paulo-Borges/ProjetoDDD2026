@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Domain.Interfaces
 {
-    internal interface IRespostaRepository : IRepository<Resposta>
+    public interface IRespostaRepository : IRepository<Resposta>
     {
     }
 }
