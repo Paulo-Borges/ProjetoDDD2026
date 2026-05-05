@@ -13,13 +13,9 @@ namespace Entities.Entidades
         public int Id { get; set; }
 
         [ForeignKey("Resposta")]
-        [Column(Order = 1)]
-
         public int IdResposta { get; set; }
 
         [ForeignKey("Opcao")]
-        [Column(Order = 1)]
-
         public int IdOpcao { get; set; }
     }
 }

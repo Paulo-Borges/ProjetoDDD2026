@@ -15,7 +15,7 @@ namespace Infra.Config
         
         public DbSet<Empresa> Empresas { get; set; }
         public DbSet<Pesquisa> Pesquisas { get; set; }
-        public DbSet<Opcoes> Opcoes { get; set; }
+        public DbSet<Opcao> Opcoes { get; set; }
         public DbSet<Resposta> Respostas { get; set; }
         public DbSet<Pergunta> Perguntas { get; set; }
         public DbSet<OpcaoResposta> OpcaoResposta { get; set; }

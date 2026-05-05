@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Infra.Repositorios
 {
-    public class OpcaoRepository : Repository<Opcoes>, IOpcaoRepository
+    public class OpcaoRepository : Repository<Opcao>, IOpcaoRepository
     {
 
 

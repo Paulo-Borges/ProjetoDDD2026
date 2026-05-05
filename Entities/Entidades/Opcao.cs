@@ -7,14 +7,13 @@ using System.Text.Json.Serialization;
 namespace Entities.Entidades
 {
 
-    [Table("Opcoes")]
-    public class Opcoes : Base
+    [Table("Opcao")]
+    public class Opcao : Base
     {
         public int Peso {  get; set; }
-        public bool ativo {  get; set; }
+        public bool Ativo {  get; set; }
 
         [ForeignKey("Pergunta")]
-        [Column("Order = 1")]
         public int IdPergunta { get; set; }
 
         [JsonIgnore]

@@ -15,7 +15,7 @@ namespace Entities.EntidadesNoMap
         public int IdPesquisa { get; set; }
 
 
-        public List<OpcaoDTO> Opcoes { get; set; }
+        public List<OpcaoDTO> Opcao { get; set; }
     }
 
     public class OpcaoDTO
